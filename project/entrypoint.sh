@@ -7,5 +7,5 @@ while ! nc -z web-db 5432; do
 done
 
 echo "PostreSQL started"
-
+# note for Windows users - use git bash to run dos2unix.exe entrypoint.sh to fix file format issue
 exec "$@"
