@@ -3,7 +3,7 @@ from datetime import datetime
 
 import pytest
 
-from app.api import crud, summaries
+from app.api import crud
 
 
 def test_create_summary(test_app, monkeypatch):
