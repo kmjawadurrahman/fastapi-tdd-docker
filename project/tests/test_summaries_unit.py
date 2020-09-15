@@ -20,7 +20,7 @@ def test_create_summary(test_app, monkeypatch):
 
     monkeypatch.setattr(summaries, "generate_summary", mock_generate_summary)
 
-    response = test_app.post("/summaries/", data=json.dumps(test_request_payload),)
+    response = test_app.post("/summaries/", data=json.dumps(test_request_payload))
 
     assert response.status_code == 201
     assert response.json() == test_response_payload
@@ -145,7 +145,7 @@ def test_update_summary(test_app, monkeypatch):
 
     monkeypatch.setattr(crud, "put", mock_put)
 
-    response = test_app.put("/summaries/1/", data=json.dumps(test_request_payload),)
+    response = test_app.put("/summaries/1/", data=json.dumps(test_request_payload))
     assert response.status_code == 200
     assert response.json() == test_response_payload
 
