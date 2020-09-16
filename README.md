@@ -21,6 +21,8 @@ Learn how to build, test, and deploy a text summarization microservice with Pyth
 
 **fastapi-tdd-docker** is a code-along to the course **[Test-Driven Development with FastAPI and Docker][tddfastapi]** by Michael Herman.
 
+Link to [original repo](https://github.com/testdrivenio/fastapi-tdd-docker).
+
 #### Tools and technologies
 
 - Python
@@ -140,7 +142,5 @@ Unit Tests with Monkey-patching:
 ```bash
 $ docker-compose exec web pytest -k "unit" -n auto
 ```
-
-Original repo: https://github.com/testdrivenio/fastapi-tdd-docker
 
 [tddfastapi]: https://testdriven.io/courses/tdd-fastapi/
