@@ -1,5 +1,5 @@
 # Test-Driven Development with FastAPI and Docker
-Learn how to build, test, and deploy a text summarization microservice with Python, FastAPI, and Docker
+Learn how to build, test, and deploy a text summarization microservice with Python, FastAPI and Docker.
 
 ![Continuous Integration and Delivery](https://github.com/kmjawadurrahman/fastapi-tdd-docker/workflows/Continuous%20Integration%20and%20Delivery/badge.svg?branch=master)
 
@@ -15,7 +15,6 @@ Learn how to build, test, and deploy a text summarization microservice with Pyth
     - [Docs](#docs)
     - [Access the database via psql](#access-the-database-via-psql)
 - [Tests](#tests)
-- [Contributing](#contributing)
 
 ## About
 
